@@ -1,15 +1,16 @@
+
 .body {
   max-width: 800px;
   width: 90%;
   margin: 50px auto;
   background-color: cornsilk;
   border-radius: 20px;
-  transition: 0.4s;
+  transition: 0.5s;
   padding: 20px;
 }
 
 .body:hover {
-  box-shadow: 0px 0px 40px #cd4dcd;
+  box-shadow: 0px 0px 40px black;
 }
 
 
@@ -164,7 +165,7 @@ li button:nth-child(4) {
   }
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
   .body {
     width: 95%;
@@ -190,7 +191,7 @@ li button:nth-child(4) {
     margin: 5px 0;
   }
 
- 
+  /* Stack input and buttons */
   .task, .addtask, .clearCompleted {
     width: 90%;
     margin: 5px auto;
@@ -232,6 +233,13 @@ li button:nth-child(4) {
     font-size: 16px;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightsteelblue; 
+}
+
 
 
 
