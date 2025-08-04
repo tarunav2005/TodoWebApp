@@ -164,3 +164,74 @@ li button:nth-child(4) {
   }
 }
 
+
+@media (max-width: 768px) {
+  .body {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .navbarbrand {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .webicon {
+    height: 30px;
+    width: 30px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+ 
+  .task, .addtask, .clearCompleted {
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  li span {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  li button {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .task, .addtask, .clearCompleted {
+    width: 100%;
+  }
+
+  li {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+
+
